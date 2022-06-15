@@ -5,7 +5,7 @@ index=0
 
 while [ $index -lt 10 ]
 do
-  if [ $index -eq 9]
+  if [ $index -eq 9 ]
   then
     echo "HI"
   fi
