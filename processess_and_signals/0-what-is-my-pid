@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Displays content of a file
+echo $$
