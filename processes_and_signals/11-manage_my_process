@@ -19,7 +19,7 @@ case "$1" in
        ;;
     stop)
        stop
-       echo "manage_my_process started"
+       echo "manage_my_process stopped"
        ;;
      restart)
         stop
