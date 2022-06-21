@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#Displays content of a file
+# Displays its own PID.
+
 echo $$
