@@ -21,13 +21,13 @@ case "$1" in
        stop
        echo "manage_my_process stopped"
        ;;
-     restart)
-        stop
-        start
-        echo "manage_my_process restarted"
-        ;;
-     *)
-        echo "usage: manage_my_process {start|stop|restart}"
+    restart)
+       stop
+       start
+       echo "manage_my_process restarted"
+       ;;
+    *)
+       echo "usage: manage_my_process {start|stop|restart}"
 esac
 
 exit 0
